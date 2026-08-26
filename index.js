@@ -28,12 +28,12 @@ var questionsArr = [
     {
         question: 'The killer in the Scream movies is called Ghostface.',
         answer: true
-    }
+    },
 ]
 
 function runQuiz() {
     var myScore = 0;
-    for (var i=0; i< questionsArr.length; i++) {
+    for (var i=0; i<questionsArr.length; i++) {
         var answer = confirm(questionsArr[i].question);
         console.log(answer);
 
